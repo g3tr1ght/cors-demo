@@ -1,0 +1,39 @@
+.grid-row.row > .col,
+.grid-row.row > [class^="col-"] {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgba(39, 41, 43, 0.03);
+  border: 1px solid rgba(39, 41, 43, 0.1);
+  overflow-wrap: anywhere;
+}
+
+.grid-row-inner.row > .col,
+.grid-row-inner.row > [class^="col-"] {
+  padding: 0.5rem 0;
+  border: 1px solid rgba(39, 41, 43, 0.1);
+  overflow-wrap: anywhere;
+}
+
+.grid-row-inner.row > .col:first-child,
+.grid-row-inner.row > [class^="col-"]:first-child {
+  border-left: none;
+}
+
+.grid-row-inner.row > .col:last-child,
+.grid-row-inner.row > [class^="col-"]:last-child {
+  border-right: none;
+}
+
+.grid-row-inner.row:first-child > .col,
+.grid-row-inner.row:first-child > [class^="col-"] {
+  border-top: none;
+}
+
+.grid-row-inner.row:last-child > .col,
+.grid-row-inner.row:last-child > [class^="col-"] {
+  border-bottom: none;
+}
+
+.error-temp {
+  overflow-wrap: anywhere;
+}
