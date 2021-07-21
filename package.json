@@ -2,9 +2,9 @@
   "name": "cors-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "DEBUG=express:* node server"
   },
   "author": "",
   "license": "ISC",
